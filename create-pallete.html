@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./create-pallete.html">Create pallete</a>
+      </nav>
+    </header>
+
+    <form id="create-pallete">
+      <input type="text" id="title" placeholder="Add pallete title" />
+      <button type="button" onclick="CreatePallete()" id="create">Create Pallete</button>
+      <button type="button" onclick="addInputColor()" id="add">Add Color</button>
+      <div id="color-inputs"></div>
+    </form>
+
+    <script src="./create-pallete.js"></script>
+  </body>
+</html>
